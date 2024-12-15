@@ -48,12 +48,34 @@ const users = [
 ]
 
 users[1]. email
-console.log(tinderuser);
+//  console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));  
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser)); // lessuse
+//  console.log(Object.keys(tinderuser));  
+//  console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser)); // less use
 
 // asking if it have this value
 
-console.log(tinderuser.hasOwnProperty('isloggedIn')); // give output in boolean only 
+// console.log(tinderuser.hasOwnProperty('isloggedIn')); // give output in boolean only 
+
+
+
+const course = {
+    coursename: "Javascript",
+    price: "999",
+    courseteacher: "Zenith",
+}
+
+const {courseteacher: teacher} = course  // This is de-Structure (: teacher)
+console.log(teacher);
+
+/*
+// API Comes in this
+
+{
+    "name": "sai",
+    "coursename": "js",
+    "price": "free"
+}
+
+*/
