@@ -25,15 +25,15 @@ const chai = () => {  // => this is arrow function
 
 // const addnum = (num1, num2) => {
 //    return num1 + num2
-// }
+ // }
 // console.log(addnum(3, 8));
 
 // Inplecit Return 
 
-// const addnum = (num1, num2) => ( num1 + num2 )
-// console.log(addnum(3, 8))
+ const addnum = (num1, num2) => ( num1 + num2 )
+ console.log(addnum(3, 8))
 
 // FOR OBJECT
 
-const addnum = (num1, num2) => ({username: "Zenith"})
+// const addnum = (num1, num2) => ({username: "Zenith"})
  
